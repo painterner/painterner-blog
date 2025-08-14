@@ -1,0 +1,107 @@
+---
+import '../styles/global.css'
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "全栈独立开发者 | AI应用研究者 | 电子工程师" } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={description} />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content={title} />
+    <meta property="twitter:description" content={description} />
+    
+    <title>{title}</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-slate-900 text-white font-inter antialiased">
+    <slot />
+    
+    <!-- Language Detection Script -->
+    <script>
+      // Simple language detection and toggle
+      const isZh = /[\u4e00-\u9fff]/.test(navigator.language) || navigator.language.includes('zh');
+      const toggleLang = () => {
+        document.querySelectorAll('[data-en]').forEach(el => {
+          const htmlEl = el as HTMLElement;
+          const isEn = htmlEl.style.display !== 'none';
+          htmlEl.style.display = isEn ? 'none' : 'block';
+        });
+        document.querySelectorAll('[data-zh]').forEach(el => {
+          const htmlEl = el as HTMLElement;
+          const isZh = htmlEl.style.display !== 'none';
+          htmlEl.style.display = isZh ? 'none' : 'block';
+        });
+      };
+      
+      // Mobile menu toggle
+      const toggleMobileMenu = () => {
+        const mobileMenu = document.getElementById('mobile-menu');
+        if (mobileMenu) {
+          mobileMenu.classList.toggle('hidden');
+        }
+      };
+      
+      // Initialize language display and add event listeners
+      document.addEventListener('DOMContentLoaded', () => {
+        if (isZh) {
+          document.querySelectorAll('[data-en]').forEach(el => (el as HTMLElement).style.display = 'none');
+        } else {
+          document.querySelectorAll('[data-zh]').forEach(el => (el as HTMLElement).style.display = 'none');
+        }
+        
+        // Add language toggle button functionality
+        const langBtn = document.getElementById('lang-toggle');
+        if (langBtn) {
+          langBtn.addEventListener('click', toggleLang);
+        }
+        
+        // Add mobile menu toggle functionality
+        const mobileMenuBtn = document.getElementById('mobile-menu-toggle');
+        if (mobileMenuBtn) {
+          mobileMenuBtn.addEventListener('click', toggleMobileMenu);
+        }
+        
+        // Close mobile menu when clicking on links
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+          link.addEventListener('click', () => {
+            const mobileMenu = document.getElementById('mobile-menu');
+            if (mobileMenu) {
+              mobileMenu.classList.add('hidden');
+            }
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
+
+<style>
+  .font-inter {
+    font-family: 'Inter', sans-serif;
+  }
+  .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+</style>
