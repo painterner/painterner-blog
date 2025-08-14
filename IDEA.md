@@ -1,0 +1,2 @@
+
+我想创建一个serverless 网站用来放置我的个人简介和博客，可以使用html或者某种框架，要求界面美观生动。 我的信息是: 我是一个全栈独立开发者，一个ai应用研究与开发者，也是一个电子工程师，可以web开发，移动app开发，喜欢reactjs, astro, 喜欢注解@语法； 从DNN，CNN到transformer的见证者，从diffusion model到LLM的持续关注者，设想过全自动OCR识别，桌面机器人，自动提醒呼叫机。 开发过SSH-Y proxy andrioid app, couples.com, getlighter.paintermer.me, qtelogo.com, jellyvai.com几乎无收入，仍在持续探索中. 芯片开发电子工程师，开发过atmel, stm32, rtlxxx, 51, xlinux, ble, wifi, 4g, tellink, efr32mg21, ats2835, mediatek, raspiberry, esp32. 从创建最简单的astro 空应用开始开发就可以，也可以引入一些美观的模板。支持自动检测中英文转换。总体表现的简洁，紧凑，美观
