@@ -6,8 +6,8 @@ const About: React.FC = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-            <span data-zh>关于我</span>
-            <span data-en>About Me</span>
+            <span data-zh>我的故事</span>
+            <span data-en>My Story</span>
           </h2>
         </div>
         
@@ -15,25 +15,31 @@ const About: React.FC = () => {
           <div className="space-y-6">
             <div data-zh className="space-y-6">
               <p className="text-lg text-slate-300 leading-relaxed">
-                我是一名<strong className="text-white">全栈独立开发者</strong>，同时也是一名<strong className="text-white">AI应用研究与开发者</strong>和<strong className="text-white">电子工程师</strong>。
+                嗨！我是一个喜欢折腾的人。白天可能在调试STM32的寄存器，晚上可能在写React组件。
               </p>
               <p className="text-lg text-slate-300 leading-relaxed">
-                作为从<strong className="text-blue-400">DNN、CNN到Transformer</strong>的见证者，以及从<strong className="text-purple-400">Diffusion Model到LLM</strong>的持续关注者，我一直在探索AI技术的前沿。
+                从大学接触编程开始，我就被这个能让想法变成现实的魔法深深吸引了。后来做硬件工程师，发现从底层芯片到上层应用，每一层都有无穷的乐趣。
               </p>
               <p className="text-lg text-slate-300 leading-relaxed">
-                我曾设想过<strong className="text-green-400">全自动OCR识别</strong>、<strong className="text-green-400">桌面机器人</strong>、<strong className="text-green-400">自动提醒呼叫机</strong>等创新项目。
+                这些年见证了AI的快速发展 - 从早期的深度神经网络，到2017年Transformer的横空出世，再到现在的大语言模型时代。每一次突破都让我兴奋不已！
+              </p>
+              <p className="text-lg text-slate-300 leading-relaxed">
+                做了几个项目，说实话收入不多😅，但过程很快乐。比如那个SSH代理App、情侣网站，还有一些AI相关的小工具...
               </p>
             </div>
             
             <div data-en className="space-y-6">
               <p className="text-lg text-slate-300 leading-relaxed">
-                I am a <strong className="text-white">full-stack independent developer</strong>, also an <strong className="text-white">AI application researcher and developer</strong>, and an <strong className="text-white">electronics engineer</strong>.
+                Hi! I'm someone who loves to tinker. During the day I might be debugging STM32 registers, at night writing React components.
               </p>
               <p className="text-lg text-slate-300 leading-relaxed">
-                As a witness to the journey from <strong className="text-blue-400">DNN, CNN to Transformer</strong>, and a continuous follower from <strong className="text-purple-400">Diffusion Models to LLM</strong>, I've been exploring the frontiers of AI technology.
+                Since I started programming in college, I've been deeply fascinated by this magic that turns ideas into reality. Later working as a hardware engineer, I discovered endless fun from low-level chips to high-level applications.
               </p>
               <p className="text-lg text-slate-300 leading-relaxed">
-                I've envisioned innovative projects like <strong className="text-green-400">fully automated OCR recognition</strong>, <strong className="text-green-400">desktop robots</strong>, and <strong className="text-green-400">automatic reminder calling systems</strong>.
+                I've witnessed the rapid development of AI over the years - from early deep neural networks, to the emergence of Transformer in 2017, to the current era of large language models. Every breakthrough excites me!
+              </p>
+              <p className="text-lg text-slate-300 leading-relaxed">
+                Made several projects, honestly the income isn't much😅, but the process has been joyful. Like that SSH proxy app, couples website, and some AI-related tools...
               </p>
             </div>
           </div>

@@ -6,30 +6,30 @@ const Navigation: React.FC = () => {
       <div className="max-w-6xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-            <span data-zh>全栈开发者</span>
-            <span data-en>Full-Stack Dev</span>
+            <span data-zh>代码爱好者</span>
+            <span data-en>Code Lover</span>
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
             <a href="#about" className="text-slate-300 hover:text-white transition-colors duration-200">
-              <span data-zh>关于</span>
-              <span data-en>About</span>
+              <span data-zh>我的故事</span>
+              <span data-en>My Story</span>
             </a>
             <a href="#projects" className="text-slate-300 hover:text-white transition-colors duration-200">
-              <span data-zh>项目</span>
-              <span data-en>Projects</span>
+              <span data-zh>做过什么</span>
+              <span data-en>My Work</span>
             </a>
             <a href="#experience" className="text-slate-300 hover:text-white transition-colors duration-200">
-              <span data-zh>经历</span>
-              <span data-en>Experience</span>
+              <span data-zh>技术历程</span>
+              <span data-en>Journey</span>
             </a>
             <a href="#blog" className="text-slate-300 hover:text-white transition-colors duration-200">
-              <span data-zh>博客</span>
-              <span data-en>Blog</span>
+              <span data-zh>随想</span>
+              <span data-en>Thoughts</span>
             </a>
             <a href="#contact" className="text-slate-300 hover:text-white transition-colors duration-200">
-              <span data-zh>联系</span>
-              <span data-en>Contact</span>
+              <span data-zh>聊聊</span>
+              <span data-en>Chat</span>
             </a>
           </div>
           
@@ -47,24 +47,24 @@ const Navigation: React.FC = () => {
         <div id="mobile-menu" className="hidden md:hidden mt-4 py-4 border-t border-slate-700">
           <div className="flex flex-col space-y-4">
             <a href="#about" className="text-slate-300 hover:text-white transition-colors duration-200">
-              <span data-zh>关于</span>
-              <span data-en>About</span>
+              <span data-zh>我的故事</span>
+              <span data-en>My Story</span>
             </a>
             <a href="#projects" className="text-slate-300 hover:text-white transition-colors duration-200">
-              <span data-zh>项目</span>
-              <span data-en>Projects</span>
+              <span data-zh>做过什么</span>
+              <span data-en>My Work</span>
             </a>
             <a href="#experience" className="text-slate-300 hover:text-white transition-colors duration-200">
-              <span data-zh>经历</span>
-              <span data-en>Experience</span>
+              <span data-zh>技术历程</span>
+              <span data-en>Journey</span>
             </a>
             <a href="#blog" className="text-slate-300 hover:text-white transition-colors duration-200">
-              <span data-zh>博客</span>
-              <span data-en>Blog</span>
+              <span data-zh>随想</span>
+              <span data-en>Thoughts</span>
             </a>
             <a href="#contact" className="text-slate-300 hover:text-white transition-colors duration-200">
-              <span data-zh>联系</span>
-              <span data-en>Contact</span>
+              <span data-zh>聊聊</span>
+              <span data-en>Chat</span>
             </a>
           </div>
         </div>

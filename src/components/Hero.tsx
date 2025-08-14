@@ -20,56 +20,62 @@ const Hero: React.FC = () => {
         </button>
         
         <div data-zh className="space-y-6">
-          <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-            全栈独立开发者
+          <h1 className="text-4xl md:text-6xl font-bold text-white">
+            你好，我是一名
+            <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent block mt-2">
+              代码爱好者
+            </span>
           </h1>
-          <h2 className="text-2xl md:text-3xl text-slate-300 font-light">
-            AI应用研究者 • 电子工程师
-          </h2>
-          <p className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed">
-            从DNN、CNN到Transformer的见证者<br/>
-            从Diffusion Model到LLM的持续关注者<br/>
-            探索技术边界，创造无限可能
+          <p className="text-xl md:text-2xl text-slate-300 font-light">
+            喜欢写代码，喜欢折腾硬件，对AI充满好奇
+          </p>
+          <p className="text-lg text-slate-400 max-w-2xl mx-auto leading-relaxed">
+            从大学时的第一行Hello World到现在，<br/>
+            见证了AI从DNN到Transformer的演进，<br/>
+            虽然做的项目收入微薄，但依然热爱这份探索 ✨
           </p>
         </div>
         
         <div data-en className="space-y-6">
-          <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-            Full-Stack Developer
+          <h1 className="text-4xl md:text-6xl font-bold text-white">
+            Hi, I'm a
+            <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent block mt-2">
+              Code Enthusiast
+            </span>
           </h1>
-          <h2 className="text-2xl md:text-3xl text-slate-300 font-light">
-            AI Researcher • Electronics Engineer
-          </h2>
-          <p className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed">
-            Witness to the journey from DNN, CNN to Transformer<br/>
-            Continuous follower from Diffusion Models to LLM<br/>
-            Exploring tech boundaries, creating infinite possibilities
+          <p className="text-xl md:text-2xl text-slate-300 font-light">
+            Love coding, enjoy tinkering with hardware, curious about AI
+          </p>
+          <p className="text-lg text-slate-400 max-w-2xl mx-auto leading-relaxed">
+            From my first "Hello World" in college to now,<br/>
+            witnessed AI evolution from DNN to Transformer,<br/>
+            though my projects earn little, I still love this exploration ✨
           </p>
         </div>
         
         <div className="mt-12 flex flex-wrap justify-center gap-4">
           <div className="flex items-center space-x-2 bg-slate-800/50 backdrop-blur-sm px-4 py-2 rounded-full">
-            <span className="text-green-400">⚡</span>
-            <span className="text-sm">React • Astro</span>
+            <span className="text-green-400">💻</span>
+            <span className="text-sm">写代码是爱好</span>
           </div>
           <div className="flex items-center space-x-2 bg-slate-800/50 backdrop-blur-sm px-4 py-2 rounded-full">
-            <span className="text-blue-400">🧠</span>
-            <span className="text-sm">AI • ML</span>
+            <span className="text-blue-400">�</span>
+            <span className="text-sm">AI让我着迷</span>
           </div>
           <div className="flex items-center space-x-2 bg-slate-800/50 backdrop-blur-sm px-4 py-2 rounded-full">
-            <span className="text-purple-400">🔧</span>
-            <span className="text-sm">Hardware • Embedded</span>
+            <span className="text-purple-400">⚡</span>
+            <span className="text-sm">硬件也很有趣</span>
           </div>
         </div>
         
         <div className="mt-12">
           <a 
             href="#about" 
-            className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 px-8 py-3 rounded-lg font-medium transition-all duration-200 transform hover:scale-105"
+            className="inline-flex items-center space-x-2 bg-slate-800 hover:bg-slate-700 px-6 py-3 rounded-lg font-medium transition-all duration-200 border border-slate-600 hover:border-slate-500"
           >
-            <span data-zh>了解更多</span>
-            <span data-en>Learn More</span>
-            <span>↓</span>
+            <span data-zh>看看我都做了什么</span>
+            <span data-en>See what I've been up to</span>
+            <span>😊</span>
           </a>
         </div>
       </div>

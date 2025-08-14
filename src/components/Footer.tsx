@@ -7,15 +7,15 @@ const Footer: React.FC = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
             <h3 className="text-xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-              <span data-zh>全栈独立开发者</span>
-              <span data-en>Full-Stack Developer</span>
+              <span data-zh>代码爱好者</span>
+              <span data-en>Code Enthusiast</span>
             </h3>
             <p className="text-slate-400 text-sm leading-relaxed">
               <span data-zh>
-                专注于AI应用开发与嵌入式系统设计，持续探索技术前沿。
+                喜欢写代码，喜欢折腾硬件，对AI充满好奇。虽然收入不多，但每天都很充实。
               </span>
               <span data-en>
-                Focused on AI application development and embedded system design, continuously exploring technological frontiers.
+                Love coding, enjoy tinkering with hardware, curious about AI. Though income isn't much, every day is fulfilling.
               </span>
             </p>
           </div>
@@ -39,16 +39,16 @@ const Footer: React.FC = () => {
             </h4>
             <div className="space-y-2 text-sm">
               <a href="#about" className="block text-slate-400 hover:text-white transition-colors duration-200">
-                <span data-zh>关于我</span>
-                <span data-en>About</span>
+                <span data-zh>我的故事</span>
+                <span data-en>My Story</span>
               </a>
               <a href="#projects" className="block text-slate-400 hover:text-white transition-colors duration-200">
-                <span data-zh>项目展示</span>
-                <span data-en>Projects</span>
+                <span data-zh>做过什么</span>
+                <span data-en>My Work</span>
               </a>
               <a href="#blog" className="block text-slate-400 hover:text-white transition-colors duration-200">
-                <span data-zh>技术博客</span>
-                <span data-en>Blog</span>
+                <span data-zh>随想</span>
+                <span data-en>Thoughts</span>
               </a>
             </div>
           </div>
@@ -57,15 +57,15 @@ const Footer: React.FC = () => {
         <div className="border-t border-slate-700/50 pt-8 text-center">
           <p className="text-slate-400 text-sm mb-4">
             <span data-zh>
-              "虽然收入微薄，但技术探索的热情从未减退 🚀"
+              "写代码很快乐，能分享更快乐 �"
             </span>
             <span data-en>
-              "Though income is minimal, the passion for technological exploration never fades 🚀"
+              "Coding is joyful, sharing makes it even better �"
             </span>
           </p>
           <p className="text-slate-500 text-xs">
-            <span data-zh>© 2024 个人作品集. 使用 Astro + React + Tailwind CSS 构建</span>
-            <span data-en>© 2024 Personal Portfolio. Built with Astro + React + Tailwind CSS</span>
+            <span data-zh>© 2024 用爱发电的个人网站 • 用 Astro + React + Tailwind 做的</span>
+            <span data-en>© 2024 Personal site made with love • Built with Astro + React + Tailwind</span>
           </p>
         </div>
       </div>

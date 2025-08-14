@@ -5,16 +5,16 @@ const Contact: React.FC = () => {
     <section id="contact" className="py-20 px-6 bg-slate-800/20">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-green-400 bg-clip-text text-transparent">
-          <span data-zh>联系我</span>
-          <span data-en>Get In Touch</span>
+          <span data-zh>聊聊呗</span>
+          <span data-en>Let's Chat</span>
         </h2>
         
         <p className="text-lg text-slate-400 mb-12 max-w-2xl mx-auto">
           <span data-zh>
-            虽然收入微薄，但我对技术的热情从未减退。如果你对我的项目或想法感兴趣，欢迎与我交流！
+            做这些项目虽然没赚到什么钱，但交朋友总是好的！如果你也喜欢折腾技术，咱们可以聊聊~
           </span>
           <span data-en>
-            Though income is minimal, my passion for technology never fades. If you're interested in my projects or ideas, feel free to reach out!
+            Though these projects didn't make much money, making friends is always good! If you also love tinkering with tech, let's chat~
           </span>
         </p>
         
@@ -57,17 +57,17 @@ const Contact: React.FC = () => {
         </div>
         
         <div className="bg-gradient-to-r from-blue-500/10 to-purple-500/10 backdrop-blur-sm rounded-2xl p-8 border border-slate-700/50">
-          <div className="text-4xl mb-4">🚀</div>
+          <div className="text-4xl mb-4">🎉</div>
           <h3 className="text-2xl font-bold mb-4 text-white">
-            <span data-zh>持续探索中...</span>
-            <span data-en>Continuous Exploration...</span>
+            <span data-zh>一起探索有趣的技术</span>
+            <span data-en>Explore Interesting Tech Together</span>
           </h3>
           <p className="text-slate-300 max-w-2xl mx-auto">
             <span data-zh>
-              "虽然目前项目收入微薄，但技术探索的脚步从未停止。每一行代码、每一个创意，都是向未来迈进的一步。"
+              "代码改变世界，也改变了我的生活。虽然目前还没有大富大贵，但每天都在学新东西，这就很棒啦！"
             </span>
             <span data-en>
-              "Though current project revenue is minimal, the pace of technological exploration never stops. Every line of code, every creative idea, is a step towards the future."
+              "Code changes the world and changed my life too. Though I'm not rich yet, learning new things every day is pretty awesome!"
             </span>
           </p>
         </div>

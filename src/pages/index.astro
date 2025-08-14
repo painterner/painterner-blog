@@ -1,24 +1,24 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Navigation from '../components/Navigation';
-import Hero from '../components/Hero';
-import About from '../components/About';
-import Projects from '../components/Projects';
-import Experience from '../components/Experience';
-import Blog from '../components/Blog';
-import Contact from '../components/Contact';
-import Footer from '../components/Footer';
+import NavigationSimple from '../components/NavigationSimple';
+import HeroSimple from '../components/HeroSimple';
+import AboutSimple from '../components/AboutSimple';
+import ProjectsSimple from '../components/ProjectsSimple';
+import ExperienceSimple from '../components/ExperienceSimple';
+import BlogSimple from '../components/BlogSimple';
+import ContactSimple from '../components/ContactSimple';
+import FooterSimple from '../components/FooterSimple';
 ---
 
-<Layout title="全栈独立开发者 | AI研究者 | 电子工程师">
-  <Navigation client:load />
-  <main class="pt-16">
-    <Hero client:load />
-    <About client:load />
-    <Projects client:load />
-    <Experience client:load />
-    <Blog client:load />
-    <Contact client:load />
+<Layout title="Painterner - 代码爱好者 | 写代码 • 搞硬件 • 玩AI">
+  <NavigationSimple client:load />
+  <main class="pt-12">
+    <HeroSimple client:load />
+    <AboutSimple client:load />
+    <ProjectsSimple client:load />
+    <ExperienceSimple client:load />
+    <BlogSimple client:load />
+    <ContactSimple client:load />
   </main>
-  <Footer client:load />
+  <FooterSimple client:load />
 </Layout>

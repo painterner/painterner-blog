@@ -6,8 +6,8 @@ const Projects: React.FC = () => {
       name: 'SSH-Y Proxy',
       type: 'Android App',
       description: {
-        zh: 'Android SSH代理应用',
-        en: 'Android SSH proxy application'
+        zh: '大学时做的Android SSH代理，当时觉得很酷',
+        en: 'Android SSH proxy I made in college, thought it was cool at the time'
       },
       tech: ['Android', 'Java', 'SSH'],
       status: 'deployed',
@@ -17,8 +17,8 @@ const Projects: React.FC = () => {
       name: 'couples.com',
       type: 'Web Platform',
       description: {
-        zh: '情侣社交平台',
-        en: 'Couples social platform'
+        zh: '想做个情侣社交平台，结果...用户不多😂',
+        en: 'Wanted to make a couples social platform, but...not many users😂'
       },
       tech: ['React', 'Node.js', 'Database'],
       status: 'deployed',
@@ -28,8 +28,8 @@ const Projects: React.FC = () => {
       name: 'getlighter.paintermer.me',
       type: 'Web Service',
       description: {
-        zh: '轻量级工具服务',
-        en: 'Lightweight utility service'
+        zh: '一些小工具的集合，偶尔有人用',
+        en: 'Collection of small tools, occasionally someone uses them'
       },
       tech: ['Web', 'API', 'Tools'],
       status: 'deployed',
@@ -39,8 +39,8 @@ const Projects: React.FC = () => {
       name: 'qtelogo.com',
       type: 'Logo Generator',
       description: {
-        zh: 'AI Logo生成器',
-        en: 'AI logo generator'
+        zh: '用AI生成Logo，觉得挺有意思的',
+        en: 'AI logo generator, think it\'s quite interesting'
       },
       tech: ['AI', 'React', 'Design'],
       status: 'deployed',
@@ -50,41 +50,41 @@ const Projects: React.FC = () => {
       name: 'jellyvai.com',
       type: 'AI Platform',
       description: {
-        zh: 'AI应用平台',
-        en: 'AI application platform'
+        zh: '想做个AI应用平台，还在摸索中',
+        en: 'Want to make an AI application platform, still exploring'
       },
       tech: ['AI', 'LLM', 'Platform'],
       status: 'deployed',
       icon: '🤖'
     },
     {
-      name: 'OCR Recognition System',
-      type: 'Concept',
+      name: '自动OCR识别',
+      type: '脑洞项目',
       description: {
-        zh: '全自动OCR识别系统',
-        en: 'Fully automated OCR recognition system'
+        zh: '想做个全自动OCR，识别一切文字！',
+        en: 'Want to make fully automated OCR to recognize all text!'
       },
       tech: ['AI', 'OCR', 'Automation'],
       status: 'concept',
       icon: '👁️'
     },
     {
-      name: 'Desktop Robot',
-      type: 'Concept',
+      name: '桌面小机器人',
+      type: '脑洞项目',
       description: {
-        zh: '智能桌面机器人',
-        en: 'Intelligent desktop robot'
+        zh: '桌上放个小机器人，能聊天能提醒，多好！',
+        en: 'A small robot on the desk that can chat and remind, how nice!'
       },
       tech: ['Robotics', 'AI', 'Hardware'],
       status: 'concept',
       icon: '🤖'
     },
     {
-      name: 'Auto Reminder System',
-      type: 'Concept',
+      name: '智能提醒助手',
+      type: '脑洞项目',
       description: {
-        zh: '自动提醒呼叫机',
-        en: 'Automatic reminder calling system'
+        zh: '自动打电话提醒重要事情，听起来就很棒',
+        en: 'Automatically call to remind important things, sounds great'
       },
       tech: ['IoT', 'AI', 'Communication'],
       status: 'concept',
@@ -97,12 +97,12 @@ const Projects: React.FC = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-green-400 to-blue-400 bg-clip-text text-transparent">
-            <span data-zh>项目展示</span>
-            <span data-en>Projects</span>
+            <span data-zh>我做过的小东西</span>
+            <span data-en>Things I've Built</span>
           </h2>
           <p className="text-lg text-slate-400 max-w-2xl mx-auto">
-            <span data-zh>虽然收入微薄，但持续探索的脚步从未停止</span>
-            <span data-en>Though income is minimal, the journey of exploration never stops</span>
+            <span data-zh>有些能用，有些还在想象中。收入嘛...咱就不提了😅</span>
+            <span data-en>Some work, some are still in imagination. About income... let's not talk about that😅</span>
           </p>
         </div>
         
@@ -120,8 +120,8 @@ const Projects: React.FC = () => {
                     : 'bg-orange-500/20 text-orange-300'
                 }`}>
                   {project.status === 'deployed' ? 
-                    (<span><span data-zh>已部署</span><span data-en>Deployed</span></span>) : 
-                    (<span><span data-zh>概念</span><span data-en>Concept</span></span>)
+                    (<span><span data-zh>能用</span><span data-en>Works</span></span>) : 
+                    (<span><span data-zh>想法</span><span data-en>Idea</span></span>)
                   }
                 </div>
               </div>
