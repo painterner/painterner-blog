@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro';
+import CompareAiHero from '../components/CompareAiHero.tsx';
+import CompareAiFeatures from '../components/CompareAiFeatures.tsx';
+import CompareAiDownload from '../components/CompareAiDownload.tsx';
+import Footer from '../components/Footer.tsx';
+---
+
+<Layout 
+  title="Compare AI - 智能AI模型对比应用"
+  description="Compare AI是一款专业的AI模型对比应用，帮助您轻松比较不同AI模型的性能和特点。现已在Google Play上线。"
+>
+  <CompareAiHero client:load />
+  <!-- <CompareAiFeatures client:load /> -->
+  <CompareAiDownload client:load />
+</Layout>
