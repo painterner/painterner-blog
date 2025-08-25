@@ -91,6 +91,9 @@ const CompareAiDownload: React.FC = () => {
               <a href="/compare-ai/terms" className="hover:text-white transition-colors duration-200">
                 服务条款
               </a>
+              <a href="/compare-ai/delete-account" className="hover:text-white transition-colors duration-200">
+                账号注销说明
+              </a>
               <a href="mailto:me@painterner.me" className="hover:text-white transition-colors duration-200">
                 联系我们
               </a>
